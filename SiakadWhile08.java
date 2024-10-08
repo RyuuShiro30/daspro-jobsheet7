@@ -39,6 +39,10 @@ public class SiakadWhile08 {
                 
             } else {
                 System.out.println("nilai mahasiswa ke-" + (i+1) + "adalah E");
+            } 
+            if (nilai >= 85) {
+                System.out.println("bagus, pertahankan nilainya");
+                
             }
             i++;
         }
